@@ -1,0 +1,27 @@
+{
+  "name": "cineprompt",
+  "version": "1.0.0",
+  "description": "AI video prompt builder for cinematographers. Create structured prompts and share links via cineprompt.io.",
+  "keywords": ["ai", "video", "prompt", "cinematography", "sora", "runway", "kling", "veo", "cineprompt"],
+  "author": "Light Owl, LLC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lightowl/cineprompt-cli"
+  },
+  "homepage": "https://cineprompt.io",
+  "bin": {
+    "cineprompt": "./bin/cineprompt.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "data/field-values.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module"
+}
