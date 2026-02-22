@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lightowl/cineprompt-cli"
+    "url": "https://github.com/BelafonteLabs/cineprompt-cli"
   },
   "homepage": "https://cineprompt.io",
   "bin": {
