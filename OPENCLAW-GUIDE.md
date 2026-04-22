@@ -47,7 +47,7 @@ Just ask your OpenClaw agent to build a prompt. It will construct the state JSON
 
 **Your agent runs:**
 ```
-cineprompt build '{"mode":"single","subjectType":"character","fields":{"media_type":["cinematic"],"genre":["noir"],"tone":["moody","dramatic"],"char_label":"A hardened detective","subject_description":"Sharp jawline, tired eyes, loosened tie","setting":"interior","location_type":"office","env_time":"night","shot_type":"close-up","movement":"static","dof":"shallow depth of field, bokeh","lighting_style":"hard light","lighting_type":"practical lights","color_grade":"desaturated","sfx_environment":["room tone"],"props":"cigarette smoke curling through a desk lamp beam"}}'
+cineprompt build '{"mode":"single","subjectType":"character","fields":{"media_type":["cinematic"],"genre":["noir"],"mood":["contemplative"],"char_label":"A hardened detective","subject_description":"Sharp jawline, tired eyes, loosened tie","expression":"weary resignation","wardrobe":"Rumpled suit, loosened tie","setting":"interior","location_type":["office"],"env_time":"night","shot_type":"close-up","movement_type":["static, locked-off"],"dof":"shallow depth of field, bokeh","lighting_style":"hard light","lighting_type":["practical lights"],"key_light":"Single desk lamp, harsh downward angle","color_grade":["desaturated"],"sfx_environment":["room tone"],"ambient":"Ticking clock, rain on window","props":"cigarette smoke curling through a desk lamp beam"}}'
 ```
 
 **You get:**
@@ -59,7 +59,7 @@ Click the link. See the full prompt. Copy it into Sora, Runway, Kling, Veo, Seed
 
 ## Why this matters
 
-- **92 cinematography fields** your agent can dial in — lens, movement, lighting, color science, film stock, sound design
+- **133 cinematography fields** your agent can dial in — lens, movement, lighting, color science, film stock, sound design, dialogue, environment layers
 - **Prompt output matches what models actually respond to** — not vague adjectives, real visual language
 - **Share links let you view, tweak, and reuse prompts** — build a library of shots for any project
 - **Works with any AI video model** — Universal output, plus model-specific optimization coming soon
@@ -68,7 +68,7 @@ Click the link. See the full prompt. Copy it into Sora, Runway, Kling, Veo, Seed
 
 ```
 cineprompt --help              # see all commands
-cineprompt fields              # browse all 92 fields
+cineprompt fields              # browse all 133 fields
 cineprompt fields shot_type    # see options for a specific field
 cineprompt build --file s.json # build from a JSON file
 ```
